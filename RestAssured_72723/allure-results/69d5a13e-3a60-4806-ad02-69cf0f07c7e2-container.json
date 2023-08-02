@@ -1,0 +1,1 @@
+{"uuid":"69d5a13e-3a60-4806-ad02-69cf0f07c7e2","name":"Scenario: Check if user able to create a Student User with valid endpoint and request body (non existing values)","children":["8ee6942d-f9bb-4b9a-bd5d-1d442917ce07"],"befores":[],"afters":[],"start":1690517182718,"stop":1690517183159}

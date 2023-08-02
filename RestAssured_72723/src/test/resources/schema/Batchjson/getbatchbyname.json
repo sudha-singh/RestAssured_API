@@ -1,0 +1,92 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#", 
+	"$id": "https://example.com/object1690354676.json", 
+	"title": "Root", 
+	"type": "array",
+	"default": [],
+	"items":{
+		"$id": "#root/items", 
+		"title": "Items", 
+		"type": "object",
+		"required": [
+			"batchId",
+			"batchName",
+			"batchDescription",
+			"batchStatus",
+			"batchNoOfClasses",
+			"programId",
+			"programName"
+		],
+		"properties": {
+			"batchId": {
+				"$id": "#root/items/batchId", 
+				"title": "Batchid", 
+				"type": "integer",
+				"examples": [
+					8459
+				],
+				"default": 0
+			},
+			"batchName": {
+				"$id": "#root/items/batchName", 
+				"title": "Batchname", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"June23-APIExplorersBatchName-SDET-114"
+				],
+				"pattern": "^.*$"
+			},
+			"batchDescription": {
+				"$id": "#root/items/batchDescription", 
+				"title": "Batchdescription", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"string"
+				],
+				"pattern": "^.*$"
+			},
+			"batchStatus": {
+				"$id": "#root/items/batchStatus", 
+				"title": "Batchstatus", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"Active"
+				],
+				"pattern": "^.*$"
+			},
+			"batchNoOfClasses": {
+				"$id": "#root/items/batchNoOfClasses", 
+				"title": "Batchnoofclasses", 
+				"type": "integer",
+				"examples": [
+					10
+				],
+				"default": 0
+			},
+			"programId": {
+				"$id": "#root/items/programId", 
+				"title": "Programid", 
+				"type": "integer",
+				"examples": [
+					14928
+				],
+				"default": 0
+			},
+			"programName": {
+				"$id": "#root/items/programName", 
+				"title": "Programname", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"Jun23-ApiExplorer11shyamala-SDET-114"
+				],
+				"pattern": "^.*$"
+			}
+		}
+	}
+
+}

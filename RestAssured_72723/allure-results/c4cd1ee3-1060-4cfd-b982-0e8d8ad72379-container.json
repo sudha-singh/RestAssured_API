@@ -1,0 +1,1 @@
+{"uuid":"c4cd1ee3-1060-4cfd-b982-0e8d8ad72379","name":"Scenario: Check if user able to create a submission missing mandatory field AssignmentID in request body","children":["4c546a21-88b0-42c6-a81f-71c50b3a2503"],"befores":[],"afters":[],"start":1690517200259,"stop":1690517200643}

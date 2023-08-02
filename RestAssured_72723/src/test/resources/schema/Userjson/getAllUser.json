@@ -1,0 +1,149 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1690334165.json",
+  "title": "Root",
+  "type": "array",
+  "default": [],
+  "items": {
+    "$id": "#root/items",
+    "title": "Items",
+    "type": "object",
+    "required": [
+      "userComments",
+      "userEduPg",
+      "userEduUg",
+      "userFirstName",
+      "userId",
+      "userLastName",
+      "userLinkedinUrl",
+      "userLocation",
+      "userMiddleName",
+      "userPhoneNumber",
+      "userTimeZone",
+      "userVisaStatus"
+    ],
+    "properties": {
+      "userComments": {
+        "$id": "#root/items/userComments",
+        "title": "Usercomments",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "string"
+        ],
+        "pattern": "^.*$"
+      },
+      "userEduPg": {
+        "$id": "#root/items/userEduPg",
+        "title": "Useredupg",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "string"
+        ],
+        "pattern": "^.*$"
+      },
+      "userEduUg": {
+        "$id": "#root/items/userEduUg",
+        "title": "Usereduug",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "string"
+        ],
+        "pattern": "^.*$"
+      },
+      "userFirstName": {
+        "$id": "#root/items/userFirstName",
+        "title": "Userfirstname",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "string"
+        ],
+        "pattern": "^.*$"
+      },
+      "userId": {
+        "$id": "#root/items/userId",
+        "title": "Userid",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "string"
+        ],
+        "pattern": "^.*$"
+      },
+      "userLastName": {
+        "$id": "#root/items/userLastName",
+        "title": "Userlastname",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "string"
+        ],
+        "pattern": "^.*$"
+      },
+      "userLinkedinUrl": {
+        "$id": "#root/items/userLinkedinUrl",
+        "title": "Userlinkedinurl",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "string"
+        ],
+        "pattern": "^.*$"
+      },
+      "userLocation": {
+        "$id": "#root/items/userLocation",
+        "title": "Userlocation",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "string"
+        ],
+        "pattern": "^.*$"
+      },
+      "userMiddleName": {
+        "$id": "#root/items/userMiddleName",
+        "title": "Usermiddlename",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "string"
+        ],
+        "pattern": "^.*$"
+      },
+      "userPhoneNumber": {
+        "$id": "#root/items/userPhoneNumber",
+        "title": "Userphonenumber",
+        "type": "integer",
+        "examples": [
+          0
+        ],
+        "default": 0
+      },
+      "userTimeZone": {
+        "$id": "#root/items/userTimeZone",
+        "title": "Usertimezone",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "string"
+        ],
+        "pattern": "^.*$"
+      },
+      "userVisaStatus": {
+        "$id": "#root/items/userVisaStatus",
+        "title": "Uservisastatus",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "string"
+        ],
+        "pattern": "^.*$"
+      }
+    }
+  }
+
+}

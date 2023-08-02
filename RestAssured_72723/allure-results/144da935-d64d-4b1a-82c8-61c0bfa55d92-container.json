@@ -1,0 +1,1 @@
+{"uuid":"144da935-d64d-4b1a-82c8-61c0bfa55d92","name":"Scenario: Check if user able to  grade assignment with valid submission Id and without mandatory fields","children":["9cedbcf8-c211-47ad-82aa-8b4947560994"],"befores":[],"afters":[],"start":1690495762860,"stop":1690495763230}

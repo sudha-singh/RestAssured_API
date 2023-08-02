@@ -1,0 +1,1 @@
+{"uuid":"9d0cc33d-05ef-4c7f-9aac-5f8abd9301b0","name":"Scenario: Check if user able to retrieve record with valid Batch ID No Assignment","children":["9b6b26df-c22c-4fa8-aede-20660d7e6d9a"],"befores":[],"afters":[],"start":1690495753279,"stop":1690495753580}

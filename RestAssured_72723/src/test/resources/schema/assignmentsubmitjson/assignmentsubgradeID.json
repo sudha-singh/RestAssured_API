@@ -1,0 +1,49 @@
+{
+  
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "submissionId": {
+          "type": "integer"
+        },
+        "assignmentId": {
+          "type": "integer"
+        },
+        "userId": {
+          "type": "string"
+        },
+        "subDesc": {
+          "type": "string"
+        },
+        "subComments": {
+          "type": "string"
+        },
+        "subDateTime": {
+          "type": "string"
+        },
+        "gradedBy": {
+          "type": "string"
+        },
+        "gradedDateTime": {
+          "type": "string"
+        },
+        "grade": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "submissionId",
+        "assignmentId",
+        "userId",
+        "subDesc",
+        "subComments",
+        "subDateTime",
+        "gradedBy",
+        "gradedDateTime",
+        "grade"
+      ]
+    }
+  ]
+}

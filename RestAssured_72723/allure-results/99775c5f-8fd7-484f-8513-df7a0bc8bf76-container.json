@@ -1,0 +1,1 @@
+{"uuid":"99775c5f-8fd7-484f-8513-df7a0bc8bf76","name":"Scenario: Check if user able to create a submission missing mandatory field SubDateTime in request body","children":["bad11924-cddb-469e-b445-eae077159131"],"befores":[],"afters":[],"start":1690517201045,"stop":1690517201410}

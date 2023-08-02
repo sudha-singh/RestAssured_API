@@ -1,0 +1,142 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1690334056.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "userComments",
+    "userEduPg",
+    "userEduUg",
+    "userFirstName",
+    "userId",
+    "userLastName",
+    "userLinkedinUrl",
+    "userLocation",
+    "userMiddleName",
+    "userPhoneNumber",
+    "userTimeZone",
+    "userVisaStatus"
+  ],
+  "properties": {
+    "userComments": {
+      "$id": "#root/userComments",
+      "title": "Usercomments",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "string"
+      ],
+      "pattern": "^.*$"
+    },
+    "userEduPg": {
+      "$id": "#root/userEduPg",
+      "title": "Useredupg",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "string"
+      ],
+      "pattern": "^.*$"
+    },
+    "userEduUg": {
+      "$id": "#root/userEduUg",
+      "title": "Usereduug",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "string"
+      ],
+      "pattern": "^.*$"
+    },
+    "userFirstName": {
+      "$id": "#root/userFirstName",
+      "title": "Userfirstname",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "string"
+      ],
+      "pattern": "^.*$"
+    },
+    "userId": {
+      "$id": "#root/userId",
+      "title": "Userid",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "string"
+      ],
+      "pattern": "^.*$"
+    },
+    "userLastName": {
+      "$id": "#root/userLastName",
+      "title": "Userlastname",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "string"
+      ],
+      "pattern": "^.*$"
+    },
+    "userLinkedinUrl": {
+      "$id": "#root/userLinkedinUrl",
+      "title": "Userlinkedinurl",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "string"
+      ],
+      "pattern": "^.*$"
+    },
+    "userLocation": {
+      "$id": "#root/userLocation",
+      "title": "Userlocation",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "string"
+      ],
+      "pattern": "^.*$"
+    },
+    "userMiddleName": {
+      "$id": "#root/userMiddleName",
+      "title": "Usermiddlename",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "string"
+      ],
+      "pattern": "^.*$"
+    },
+    "userPhoneNumber": {
+      "$id": "#root/userPhoneNumber",
+      "title": "Userphonenumber",
+      "type": "integer",
+      "examples": [
+        0
+      ],
+      "default": 0
+    },
+    "userTimeZone": {
+      "$id": "#root/userTimeZone",
+      "title": "Usertimezone",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "string"
+      ],
+      "pattern": "^.*$"
+    },
+    "userVisaStatus": {
+      "$id": "#root/userVisaStatus",
+      "title": "Uservisastatus",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "string"
+      ],
+      "pattern": "^.*$"
+    }
+  }
+}

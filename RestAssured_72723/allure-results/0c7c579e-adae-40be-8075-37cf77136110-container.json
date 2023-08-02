@@ -1,0 +1,1 @@
+{"uuid":"0c7c579e-adae-40be-8075-37cf77136110","name":"Scenario: User able to delete a program with valid programName and mandatory request body","children":["f692bd39-90ec-4e34-93bb-f36c9e920a9a"],"befores":[],"afters":[],"start":1690495752238,"stop":1690495752505}

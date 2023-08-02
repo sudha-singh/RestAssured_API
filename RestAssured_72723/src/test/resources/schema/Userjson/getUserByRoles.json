@@ -1,0 +1,266 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1690335496.json",
+  "title": "Root",
+  "type": "array",
+  "default": [],
+  "items": {
+    "$id": "#root/items",
+    "title": "Items",
+    "type": "object",
+    "required": [
+      "userRoleId",
+      "user",
+      "role",
+      "batches",
+      "userRoleStatus"
+    ],
+    "properties": {
+      "userRoleId": {
+        "$id": "#root/items/userRoleId",
+        "title": "Userroleid",
+        "type": "integer",
+        "examples": [
+          8284
+        ],
+        "default": 0
+      },
+      "user": {
+        "$id": "#root/items/user",
+        "title": "User",
+        "type": "object",
+        "required": [
+          "userId",
+          "userFirstName",
+          "userLastName",
+          "userMiddleName",
+          "userPhoneNumber",
+          "userLocation",
+          "userTimeZone",
+          "userLinkedinUrl",
+          "userEduUg",
+          "userEduPg",
+          "userComments",
+          "userVisaStatus",
+          "hibernateLazyInitializer"
+        ],
+        "properties": {
+          "userId": {
+            "$id": "#root/items/user/userId",
+            "title": "Userid",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "U8180"
+            ],
+            "pattern": "^.*$"
+          },
+          "userFirstName": {
+            "$id": "#root/items/user/userFirstName",
+            "title": "Userfirstname",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "Reena"
+            ],
+            "pattern": "^.*$"
+          },
+          "userLastName": {
+            "$id": "#root/items/user/userLastName",
+            "title": "Userlastname",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "Mathew"
+            ],
+            "pattern": "^.*$"
+          },
+          "userMiddleName": {
+            "$id": "#root/items/user/userMiddleName",
+            "title": "Usermiddlename",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "NA"
+            ],
+            "pattern": "^.*$"
+          },
+          "userPhoneNumber": {
+            "$id": "#root/items/user/userPhoneNumber",
+            "title": "Userphonenumber",
+            "type": "integer",
+            "examples": [
+              2504244683
+            ],
+            "default": 0
+          },
+          "userLocation": {
+            "$id": "#root/items/user/userLocation",
+            "title": "Userlocation",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "Michigan"
+            ],
+            "pattern": "^.*$"
+          },
+          "userTimeZone": {
+            "$id": "#root/items/user/userTimeZone",
+            "title": "Usertimezone",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "CST"
+            ],
+            "pattern": "^.*$"
+          },
+          "userLinkedinUrl": {
+            "$id": "#root/items/user/userLinkedinUrl",
+            "title": "Userlinkedinurl",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "https://www.linkedin.com/in/jennifermathews/"
+            ],
+            "pattern": "^.*$"
+          },
+          "userEduUg": {
+            "$id": "#root/items/user/userEduUg",
+            "title": "Usereduug",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "BCA"
+            ],
+            "pattern": "^.*$"
+          },
+          "userEduPg": {
+            "$id": "#root/items/user/userEduPg",
+            "title": "Useredupg",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "MCA"
+            ],
+            "pattern": "^.*$"
+          },
+          "userComments": {
+            "$id": "#root/items/user/userComments",
+            "title": "Usercomments",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "NA"
+            ],
+            "pattern": "^.*$"
+          },
+          "userVisaStatus": {
+            "$id": "#root/items/user/userVisaStatus",
+            "title": "Uservisastatus",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "H4-EAD"
+            ],
+            "pattern": "^.*$"
+          },
+          "hibernateLazyInitializer": {
+            "$id": "#root/items/user/hibernateLazyInitializer",
+            "title": "Hibernatelazyinitializer",
+            "type": "object",
+            "required": [
+            ],
+            "properties": {
+            }
+          }
+
+        }
+      },
+      "role": {
+        "$id": "#root/items/role",
+        "title": "Role",
+        "type": "object",
+        "required": [
+          "roleId",
+          "roleName",
+          "roleDesc",
+          "creationTime",
+          "lastModTime",
+          "hibernateLazyInitializer"
+        ],
+        "properties": {
+          "roleId": {
+            "$id": "#root/items/role/roleId",
+            "title": "Roleid",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "R03"
+            ],
+            "pattern": "^.*$"
+          },
+          "roleName": {
+            "$id": "#root/items/role/roleName",
+            "title": "Rolename",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "ROLE_STUDENT"
+            ],
+            "pattern": "^.*$"
+          },
+          "roleDesc": {
+            "$id": "#root/items/role/roleDesc",
+            "title": "Roledesc",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "LMS_STUDENT"
+            ],
+            "pattern": "^.*$"
+          },
+          "creationTime": {
+            "$id": "#root/items/role/creationTime",
+            "title": "Creationtime",
+            "type": "null",
+            "default": null
+          },
+          "lastModTime": {
+            "$id": "#root/items/role/lastModTime",
+            "title": "Lastmodtime",
+            "type": "null",
+            "default": null
+          },
+          "hibernateLazyInitializer": {
+            "$id": "#root/items/role/hibernateLazyInitializer",
+            "title": "Hibernatelazyinitializer",
+            "type": "object",
+            "required": [
+            ],
+            "properties": {
+            }
+          }
+
+        }
+      },
+      "batches": {
+        "$id": "#root/items/batches",
+        "title": "Batches",
+        "type": "array",
+        "default": []
+      },
+      "userRoleStatus": {
+        "$id": "#root/items/userRoleStatus",
+        "title": "Userrolestatus",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "ROLE_STUDENT"
+        ],
+        "pattern": "^.*$"
+      }
+    }
+  }
+
+}

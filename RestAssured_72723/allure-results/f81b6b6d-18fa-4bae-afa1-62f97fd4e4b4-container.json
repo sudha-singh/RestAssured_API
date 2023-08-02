@@ -1,0 +1,1 @@
+{"uuid":"f81b6b6d-18fa-4bae-afa1-62f97fd4e4b4","name":"Scenario: Check if user able to update a Batch with valid batchID and mandatory request body","children":["868814ac-42fd-4f4d-9e2f-d445aad54d66"],"befores":[],"afters":[],"start":1690517177473,"stop":1690517177756}

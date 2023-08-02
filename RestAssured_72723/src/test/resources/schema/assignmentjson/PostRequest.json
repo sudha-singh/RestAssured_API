@@ -1,0 +1,152 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#", 
+	"$id": "https://example.com/object1690394428.json", 
+	"title": "Root", 
+	"type": "object",
+	"required": [
+		"assignmentDescription",
+		"assignmentId",
+		"assignmentName",
+		"batchId",
+		"comments",
+		"createdBy",
+		"dueDate",
+		"graderId",
+		"pathAttachment1",
+		"pathAttachment2",
+		"pathAttachment3",
+		"pathAttachment4",
+		"pathAttachment5"
+	],
+	"properties": {
+		"assignmentDescription": {
+			"$id": "#root/assignmentDescription", 
+			"title": "Assignmentdescription", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"string"
+			],
+			"pattern": "^.*$"
+		},
+		"assignmentId": {
+			"$id": "#root/assignmentId", 
+			"title": "Assignmentid", 
+			"type": "integer",
+			"examples": [
+				0
+			],
+			"default": 0
+		},
+		"assignmentName": {
+			"$id": "#root/assignmentName", 
+			"title": "Assignmentname", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"string"
+			],
+			"pattern": "^.*$"
+		},
+		"batchId": {
+			"$id": "#root/batchId", 
+			"title": "Batchid", 
+			"type": "integer",
+			"examples": [
+				0
+			],
+			"default": 0
+		},
+		"comments": {
+			"$id": "#root/comments", 
+			"title": "Comments", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"string"
+			],
+			"pattern": "^.*$"
+		},
+		"createdBy": {
+			"$id": "#root/createdBy", 
+			"title": "Createdby", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"string"
+			],
+			"pattern": "^.*$"
+		},
+		"dueDate": {
+			"$id": "#root/dueDate", 
+			"title": "Duedate", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"2023-06-19T22:18:43.750Z"
+			],
+			"pattern": "^.*$"
+		},
+		"graderId": {
+			"$id": "#root/graderId", 
+			"title": "Graderid", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"string"
+			],
+			"pattern": "^.*$"
+		},
+		"pathAttachment1": {
+			"$id": "#root/pathAttachment1", 
+			"title": "Pathattachment1", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"string"
+			],
+			"pattern": "^.*$"
+		},
+		"pathAttachment2": {
+			"$id": "#root/pathAttachment2", 
+			"title": "Pathattachment2", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"string"
+			],
+			"pattern": "^.*$"
+		},
+		"pathAttachment3": {
+			"$id": "#root/pathAttachment3", 
+			"title": "Pathattachment3", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"string"
+			],
+			"pattern": "^.*$"
+		},
+		"pathAttachment4": {
+			"$id": "#root/pathAttachment4", 
+			"title": "Pathattachment4", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"string"
+			],
+			"pattern": "^.*$"
+		},
+		"pathAttachment5": {
+			"$id": "#root/pathAttachment5", 
+			"title": "Pathattachment5", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"string"
+			],
+			"pattern": "^.*$"
+		}
+	}
+}

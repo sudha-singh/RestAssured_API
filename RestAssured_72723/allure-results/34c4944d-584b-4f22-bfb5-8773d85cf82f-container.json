@@ -1,0 +1,1 @@
+{"uuid":"34c4944d-584b-4f22-bfb5-8773d85cf82f","name":"Scenario: Check if user able to create a Staff User with valid endpoint and request body (non existing values)","children":["9d0ca4dd-7f40-44dc-9354-0618dab41bdd"],"befores":[],"afters":[],"start":1690517182257,"stop":1690517182707}

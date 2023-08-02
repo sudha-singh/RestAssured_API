@@ -1,0 +1,87 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "userRoleId",
+      "user",
+      "role",
+      "batches",
+      "userRoleStatus"
+    ],
+    "properties": {
+      "userRoleId": {
+        "type": "integer"
+      },
+      "user": {
+        "type": "object",
+        "required": [
+          "userId",
+          "userFirstName",
+          "userLastName",
+          "userPhoneNumber",
+          "userTimeZone",
+          "userVisaStatus"
+        ],
+        "properties": {
+          "userId": {
+            "type": "string"
+          },
+          "userFirstName": {
+            "type": "string"
+          },
+          "userLastName": {
+            "type": "string"
+          },
+          "userPhoneNumber": {
+            "type": "integer"
+          },
+          "userTimeZone": {
+            "type": "string"
+          },
+          "userVisaStatus": {
+            "type": "string"
+          }
+        }
+      },
+      "role": {
+        "type": "object",
+        "required": [
+          "roleId",
+          "roleName",
+          "roleDesc",
+          "creationTime",
+          "lastModTime",
+          "hibernateLazyInitializer"
+        ],
+        "properties": {
+          "roleId": {
+            "type": "string"
+          },
+          "roleName": {
+            "type": "string"
+          },
+          "roleDesc": {
+            "type": "string"
+          },
+          "creationTime": {
+            "type": "null"
+          },
+          "lastModTime": {
+            "type": "null"
+          },
+          "hibernateLazyInitializer": {
+            "type": "object"
+          }
+        }
+      },
+      "batches": {
+        "type": "array",
+        "items": {}
+      },
+      "userRoleStatus": {
+        "type": "string"
+      }
+    }
+  }
+}

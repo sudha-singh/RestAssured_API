@@ -1,0 +1,1 @@
+{"uuid":"7a0fd3c2-3e8f-4912-a267-c1e52e84302d","name":"Scenario: Check if user able to create a Batch missing mandatory fields in request body","children":["5d023bb2-d61b-4488-a5ca-7e7a072e3001"],"befores":[],"afters":[],"start":1690495742866,"stop":1690495743244}
